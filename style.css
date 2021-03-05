@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.jumbotron {
+	background-image: url(images/hero.jpg);
+}
+
+.contenu {
+	font-size: 17pt;
+	font-family: charter;
+}
+
+.contenu p {
+	text-align: justify;
+
+}
+
+.contenu .image {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+
+.citation {
+	float: right;
+	width: 30%;
+	margin: 2%;
+	font-family: lobster;
+}
+
+#triangle {
+	width: 50%;
+	height: auto;
+}

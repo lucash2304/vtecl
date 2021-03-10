@@ -1,13 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 .jumbotron {
 	background-image: url(images/hero.jpg);
 }
 
 .contenu {
-	font-size: 17pt;
-	font-family: charter;
+	font-size: 16pt;
+	font-family: "Open Sans";
 }
 
 .contenu p {
@@ -15,22 +17,87 @@
 
 }
 
-.contenu .image {
-	text-align: center;
-	margin-bottom: 30px;
+.contenu h1 {
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 
-
+.contenu h2 {
+	font-size: 17pt;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 
 .citation {
 	float: right;
-	width: 30%;
-	margin: 2%;
+	width: 50%;
+	min-width: 150px;
+	margin-left: 5%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+
+.citation .content{
 	font-family: lobster;
 }
 
 #triangle {
 	width: 50%;
 	height: auto;
+}
+
+
+.ims {
+	justify-content: space-around;
+}
+
+
+
+.questions li{
+	margin-top: 2em;
+}
+
+
+.questions li:last-child {
+	margin-bottom: 3em;
+}
+
+#imgs_adapt img {
+	height: 350px;
+}
+
+img {
+	max-width: 100%;
+}
+
+#graphe {
+	height: 600px;
+}
+
+
+figcaption {
+	margin-top: 10px;
+	font-size: 16pt;
+	color: #757575;
+}
+
+
+#jillwatson {
+	flex:1;
+	padding-right: 30px;
+}
+
+#ethics {
+	width: 800px;
+}
+
+#triangle {
+	width: 700px;
+}
+
+.csl-entry {
+	margin-bottom: 3em;
 }

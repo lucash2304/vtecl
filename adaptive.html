@@ -35,7 +35,7 @@
                 <a class="nav-link" href="acces.html">Rendre accessible et gérer l'éducation</a>
               </li>
               <li class="nav-item  active">
-                <a class="nav-link" href="adaptive.html">Personnaliser le parcours des étudiants</a>
+                <a class="nav-link" href="adaptive.html">Personnaliser le parcours d'apprentissage des étudiants</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="automatization.html">Automatiser les tâches du professeur</a>
@@ -49,33 +49,24 @@
             </ul>
           </div>
         </nav>
-        <div class="row mb-4">
-      <div class="col">
-        <div class="jumbotron text-white jumbotron-image shadow">
-            <h1 >L'intelligence artificielle au service de l'éducation</h1>
-            <h4> Veille technologique</h4>
-        </div>
-      </div>
-    </div>
+        
   <div class="container pb-5">
     <div class="row">
       <div class="col">
         <div class="contenu">
 
+          <h1> L'adaptive learning</h1>
         <p>L’apprentissage adaptatif fait partie des technologies dont on entend le plus parler et autour de laquelle gravite de nombreux débats.
 		Cela consiste à gérer l’attribution des ressources pédagogiques aux élèves en fonction des données recueillies lors de leur l’apprentissage, pour répondre au mieux à leurs besoins. En d’autres mots,  il  s’agit d’un système d’apprentissage numérique qui peut évoluer de façon dynamique pour mieux correspondre à l’étudiant. Il doit s’améliorer au fil des questions, des tâches ou des expériences réalisées par l’élève.<br/>
 		Ainsi, il ne s’agit plus seulement de recommander à l’élève un sujet ou une compétence à développer. Il s’agit plutôt de descendre l’échelle des recommandations, et rentrer dans les mécaniques de l’apprentissage. Il est donc propre à l’éducation, pas comme un simple moteur de recommandation. Quel contenu je dois présenter à l’élève après cette définition ? Tous les combien de temps dois-je lui faire pratiquer à travers un exercice ? Dois-je le tester ? L’apprentissage adaptatif répond à toutes ces questions en combinant les résultats des sciences cognitives à ceux de l’intelligence artificielle, tout en utilisant le Big Data. Typiquement, les données générées par des MOOCs peuvent constituer un excellent support.</p>
 
-		<div class="row">
-			<div class="card border-0 col-4">
-			  <img class="card-img" src="images/adapt1.png">
-			</div>
-			<div class="card border-0 col-4">
-			  <img class="card-img" src="images/adapt2.png">
-			</div>
-			<div class="card border-0 col-4">
-			  <img class="card-img" src="images/adapt3.png">
-			</div>
+		<div class="row my-5 ims" id="imgs_adapt">
+			<img src="images/adapt1.png">
+			<img src="images/adapt2.png">
+			<img src="images/adapt3.png">
+			<figcaption>
+				L'adaptive learning : une navigation personalisée entre sujets et concepts, des révisions pertinentes.
+			</figcaption>
 		</div>
 
 
@@ -90,25 +81,29 @@
 			<li>  L’application. Les connaissances et les compétences acquises sont appliquées à des cas réels. D’après Michael M. Lombardo et Robert W., 70% de l’apprentissage se fait à partir des expériences sur le lieu de travail, l’exécution de tâches et la résolution de problèmes. Il faut dont privilégier exercices pratiques et simulations dans l’éducation.</li>
 		</ul>
 
-		L’apprentissage adaptatif  intervient au niveau de ces 3 phases. Dans un premier temps lorsque l’apprenant tente d’assimiler un sujet, l’algorithme propose à l’apprenant une séquence spécifique de concepts, d’évaluations et de contenus adaptés à lui. Une fois l’assimilation effective, la consolidation doit s’effectuer. L’algorithme propose des révisions sur mesure pour l’apprenant, en optimisant leur espacement dans le temps : il prédit le moment où celui-ci est susceptible d’oublier. Au cours de tout ce processus, des jeux ou exercices pratiques sont proposés pour appliquer les connaissances. </p>
+		L’apprentissage adaptatif  intervient au niveau de ces 3 phases. Dans un premier temps lorsque l’apprenant tente d’assimiler un sujet, l’algorithme propose à l’apprenant une séquence spécifique de concepts, d’évaluations et de contenus adaptés à lui. Une fois l’assimilation effective, la consolidation doit s’effectuer. L’algorithme propose des révisions sur mesure pour l’apprenant, en optimisant leur espacement dans le temps : il prédit le moment où celui-ci est susceptible d’oublier. Enfin tout au long de ce processus, des jeux ou exercices pratiques sont proposés pour appliquer les connaissances. </p>
 
+    <h2> Mise en place de l'adaptive learning</h2>
 		<p>Cet apprentissage adaptatif ne se met pas en place comme par magie. <br/>
-		Déjà, pour un sujet donné, il faut décomposer le savoir, c’est à dire établir les prérequis et les relations entre les différentes connaissances. Cela revient à construire un graphe de connaissances. L’intelligence artificielle a besoin de ce graphe pour naviguer entre les différents contenus.  Certes, ces graphes peuvent être générés par des technologies de NLP (Natural Language Processing). Mais il est plus fiable d’avoir recours à une intervention humaine pour construire ces graphes.
+		Déjà, pour un sujet donné, il faut décomposer le savoir, c’est à dire établir les prérequis et les relations entre les différentes connaissances. Cela revient à construire un graphe de connaissances. L’intelligence artificielle a besoin de ce graphe pour naviguer entre les différents contenus.  Certes, ces graphes peuvent être générés automatiquement par des technologies de NLP (Natural Language Processing). Mais il est plus fiable d’avoir recours à une intervention humaine pour construire ces graphes.<br>
 		Puis il faut être capable de récolter des données, portant non seulement sur le profil de l’apprenant (parcours académique, compétences) mais aussi sur son apprentissage (rythme, habitudes). C’est l’analyse de ces données (learning analytics) qui permettra d’établir le parcours d’apprentissage. Souvent, ces données sont passées en entrée de modèle de deep learning ou de reinforcement learning. <br/>
 
-		Il faut aussi garder à l’esprit que le professeur garde tout son rôle dans ce système. Il le supervise, observe les progrès de ses élèves et peut intervenir plus rapidement en cas de blocage. Il est notifié en cas de comportement anormal.</p>
+		Il faut aussi garder à l’esprit que le professeur a toute son importance dans ce système. Il le supervise, observe les progrès de ses élèves et peut intervenir plus rapidement en cas de blocage. Il est notifié en cas de comportement anormal.</p>
 
-		<div class="row">
-			<div class="card border">
-			  <img class="card-img" src="images/graphe.png">
-			</div>
+		<div class="row my-5 ims">
+			<img id="graphe" src="images/graphe.png">
+			<figcaption>
+				Exemple de graphe de connaissances en mathématiques
+			</figcaption>
 		</div>
 
 
-		<p>Quelles sont les solutions actuelles proposées sur le marché ? Actuellement, le leader américain de l’adaptive learning est Knewton. Il est concurrencé par Domoscio, startup Edtech française, qui est le leader Européen. Ces entreprises proposent des plugins d’intelligence artificielle que l’on peut facilement intégrer à des Learning Management Systems comme Moodle. Il s’agit de solutions complètes, avec un moteur de recommandations, un moteur de matching entre apprenants, et un moteur de visualisation.<br/>
-		L’adaptative learning est aussi répandu sur de nombreuses plateformes d’apprentissage en ligne, comme Duolingo qui permet d’apprendre des langues etrangères. Grâce à un modèle de deep learning, cette application analyse les données de l’utilisateur pour prédire les chances qu’il aie une réponse correcte.  Le Duolingo utilise PyTorch avec Amazon Web Services. </p>
+		<h2>Quelles sont les solutions actuelles proposées sur le marché ?</h2>
+    <p>
+     Actuellement, le leader américain de l’adaptive learning est Knewton. Il est concurrencé par Domoscio, startup Edtech française, qui est le leader Européen. Ces entreprises proposent des plugins d’intelligence artificielle que l’on peut facilement intégrer à des Learning Management Systems comme Moodle. Il s’agit de solutions complètes, avec un moteur de recommandations, un moteur de matching entre apprenants, et un moteur de visualisation.<br/>
+		L’adaptative learning est aussi répandu sur de nombreuses plateformes d’apprentissage en ligne, comme Duolingo qui permet d’apprendre des langues etrangères. Grâce à un modèle de deep learning, cette application analyse les données de l’utilisateur pour prédire les chances qu’il aie une réponse correcte. Duolingo utilise PyTorch sous Amazon Web Services. </p>
 
-		<p>Il y a  beaucoup d’inertie dans le système éducatif, mais l’adaptive learning commence à être utilisé par les entreprises privées pour former leur employés. Récemment, 3 grandes entreprises françaises  ont décidé de miser sur l’IA pour la formation en interne : Burger King, le Crédit Agricole et Monoprix. 
+		<p>Il y a  beaucoup d’inertie dans le système éducatif, mais l’adaptive learning commence à être répandu à travers les entreprises privées pour former leurs employés. Récemment, 3 grandes entreprises françaises  ont décidé de miser sur l’IA pour la formation en interne : Burger King, le Crédit Agricole et Monoprix. 
 		Tandis que le CA utilise le plugin de Domoscio sur Moodle, Burger King se sert d'E-Tipi Learning, et Monoprix de Formalearning. Une étude a été menée sur un échantillon de 200 employés d’une entreprise privée pour comparer l’adaptive learning par rapport à l’apprentissage classique. Les résultats sont extrêmement encourageant : 79% du programme de formation a été retenu après une période de 3 mois par les apprenants utilisant une plateforme adaptative, contre seulement 28 % pour les apprenants n’utilisant pas la plateforme !  </p>
 
 

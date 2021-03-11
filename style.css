@@ -32,8 +32,8 @@
 }
 
 .citation {
-	float: right;
-	width: 50%;
+	/*float: right;
+	width: 50%;*/
 	min-width: 150px;
 	margin-left: 5%;
 	margin-top: 1%;
